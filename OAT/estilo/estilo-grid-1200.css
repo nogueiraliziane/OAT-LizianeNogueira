@@ -3,10 +3,9 @@ body, html{
 }
 
 #container{
-
 	display: grid;
-	grid-template-rows: 20% 7% auto 15%;
-	color: #B0E0E6;
+	grid-template-rows: minmax(min-content,40%) minmax(min-content,8%) auto 15%;
+	color: #000;
 }
 
 #header{
@@ -15,8 +14,6 @@ body, html{
 	padding:3px;
 	margin-bottom: 1%;
 	background: #4682B4;
-
- 
 }
 
 #main{
@@ -33,12 +30,6 @@ body, html{
     height: 150px;
    	text-align: center;
 }
-
-#main #menu-lateral{
-	border: 1px solid #000;	
-	display: none;
-}
-
 
 #content{
 	margin-bottom: 1%;
